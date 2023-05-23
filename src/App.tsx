@@ -7,7 +7,8 @@ import {
 } from './api/todos';
 import { TodoList } from './components/TodoList';
 import { Todo } from './types/Todo';
-import { TodoFilter, StatusOfFilter } from './components/TodoFilter';
+import { TodoFilter } from './components/TodoFilter';
+import { StatusOfFilter } from './utils/StatusOfFilter';
 import { LoadDeleteContext } from './LoadDeleteContext';
 
 const USER_ID = 9948;

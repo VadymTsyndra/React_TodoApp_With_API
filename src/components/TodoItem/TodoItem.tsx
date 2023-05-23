@@ -74,6 +74,7 @@ export const TodoItem: React.FC<Props> = ({
           }
         }}
       >
+        {/* eslint-disable-next-line */}
         <label className="todo__status-label">
           <input
             ref={inputRef}

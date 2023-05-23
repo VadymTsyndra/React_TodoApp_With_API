@@ -1,11 +1,6 @@
 import React from 'react';
 import classNames from 'classnames';
-
-export enum StatusOfFilter {
-  All = 'all',
-  Active = 'active',
-  Completed = 'completed',
-}
+import { StatusOfFilter } from '../../utils/StatusOfFilter';
 
 type Props = {
   setFilter: React.Dispatch<React.SetStateAction<StatusOfFilter>>;
