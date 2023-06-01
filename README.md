@@ -11,3 +11,4 @@ HTML/CSS: for the structure and styling of web pages.
 API: for interacting with the server and exchanging data.
 Git/GitHub: for version control and collaboration on the project.
 This project allows you to create, view, update, and delete tasks using a web interface built on React. It uses APIs to save and retrieve task data. With this project, you can organize and manage your tasks from any device that has internet access.
+
