@@ -171,8 +171,10 @@ export const App: React.FC = () => {
               className="todoapp__new-todo"
               placeholder="What needs to be done?"
               value={value}
-              onChange={(event) => setValue(event.target.value)}
-              onKeyDown={(event) => {
+              onChange={(
+                event: React.ChangeEvent<HTMLInputElement>,
+              ) => setValue(event.target.value)}
+              onKeyDown={(event: React.KeyboardEvent<HTMLInputElement>) => {
                 handleKeyDown(event);
               }}
               disabled={!!tempTodo}
