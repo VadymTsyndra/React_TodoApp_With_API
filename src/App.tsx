@@ -76,17 +76,17 @@ export const App: React.FC = () => {
     if (event.key === 'Enter') {
       event.preventDefault();
 
-      if (event.target.value.trim()) {
+      if (event.currentTarget.value.trim()) {
         const newTodo = {
           userId: USER_ID,
-          title: event.target.value,
+          title: event.currentTarget.value,
           completed: false,
         };
 
         const newTempTodo = {
           id: 0,
           userId: USER_ID,
-          title: event.target.value,
+          title: event.currentTarget.value,
           completed: false,
         };
 
